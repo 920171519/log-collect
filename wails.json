@@ -1,0 +1,20 @@
+{
+  "$schema": "https://wails.io/schemas/config.v2.json",
+  "name": "LogCollector",
+  "outputfilename": "LogCollector",
+  "frontend:install": "npm install --no-audit --no-fund",
+  "frontend:build": "npm run build",
+  "frontend:dev:watcher": "npm run dev",
+  "frontend:dev:serverUrl": "auto",
+  "author": {
+    "name": "LogCollector",
+    "email": ""
+  },
+  "info": {
+    "companyName": "LogCollector",
+    "productName": "日志采集工具",
+    "productVersion": "1.0.0",
+    "copyright": "Copyright © 2026 LogCollector",
+    "comments": "通过云主机与设备 SSH 链路采集、打包并归档日志"
+  }
+}

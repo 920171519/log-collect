@@ -1,0 +1,10 @@
+{
+  "version": 1,
+  "downloadDir": "",
+  "archiveNameTemplate": "{combo}_{device}_{timestamp}.tar.gz",
+  "cloudStageDir": "/tmp/logcollector-staging",
+  "deviceTempDir": "/tmp/logcollector-transfer",
+  "keepCloudCopy": false,
+  "timeoutMinutes": 30,
+  "combinations": []
+}
